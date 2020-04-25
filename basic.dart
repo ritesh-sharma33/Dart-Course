@@ -1,20 +1,26 @@
+import 'dart:io';
 
 void main() {
 
-  int a = 10, b = 20;
+  // int a = 10, b = 20;
 
-  int sum = a + b;
-  int diff = a - b;
-  int multi = a * b;
-  double div = a / b;
+  // int sum = a + b;
+  // int diff = a - b;
+  // int multi = a * b;
+  // double div = a / b;
 
-  print("Addition: " + sum.toString());
-  print("Subtraction: " + diff.toString());
+  // print("Addition: " + sum.toString());
+  // print("Subtraction: " + diff.toString());
 
-  var division = b / a;
+  // var division = b / a;
 
-  print("Division: " + division.toString());
+  // print("Division: " + division.toString());
 
-  bool isFirstLessThanSecond = a > b;
-  print(isFirstLessThanSecond);
+  // bool isFirstLessThanSecond = a > b;
+  // print(isFirstLessThanSecond); 
+
+  print("Hello, What's your name: ");
+  var name = stdin.readLineSync();
+  print("Hello, ${name} you're welcome");
+
 }
